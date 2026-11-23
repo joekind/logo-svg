@@ -6,12 +6,14 @@ Cursor Agent Skill for **bold hand-written SVG logos** — not AI image gen.
 
 ## Install
 
-```bash
-# Cursor user skills
-git clone https://github.com/joekind/logo-svg.git ~/.cursor/skills/logo-svg
+直接让 AI agent 安装即可，例如对 Cursor 说：
 
-# or project-local
-git clone https://github.com/joekind/logo-svg.git .cursor/skills/logo-svg
+> 帮我安装 `joekind/logo-svg` 这个 skill
+
+或自己跑一行：
+
+```bash
+npx skills add joekind/logo-svg -y
 ```
 
 ## Trigger
