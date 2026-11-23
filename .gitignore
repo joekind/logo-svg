@@ -1,5 +1,7 @@
 .DS_Store
+renders/
 *.png
 *.jpg
 *.jpeg
-renders/
+!docs/*.jpg
+!docs/*.png
